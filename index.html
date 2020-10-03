@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#" class="apple">About</a>
+  <a href="#" class="apple">Services</a>
+  <a href="#" class="apple">Clients</a>
+  <a href="#" class="apple">Contact</a>
+</div>
+
+<div class="container-fluid ">
+	<nav class="row">
+	<div class="col-lg-6 col-md-4 col-sm-12 col-12 left ">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+     </div>
+
+     <div class=" col-lg-6 col-md-4 col-sm-12 col-12 bg">
+      
+ <ul class="d-flex   align-items-center list-unstyled text-uppercase" >
+    <a href="#" id="login"> logo </a>
+    <!----------------------------search bar--------------------------------->
+       <div class="topnav">
+
+  
+  <div class="search-container">
+    <form action="#">
+      <input type="text" placeholder="Search" name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+               <a href="#" class="d-flex   align-items-center list-unstyled text-uppercase " data-target="#mymodal" data-toggle="modal" id="login"> Login </a>
+
+               <div class="modal fade" id="mymodal">
+     <div class="modal-dialog modal-dialog-centerd">
+        <div class="modal-content">
+         <div class="modal-header">
+          <h3 class="text-center">Login</h3>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+       </div>
+       
+       <div class="modal-body">
+       
+       <form>
+ 
+ <div class="form-group">
+  <label for="user"> </label>
+  
+    <input type="text" id="user" placeholder=" Enter your name" class="form-control" >
+    <a href="#" id="text1">Forgot email?</a>
+
+</div>
+
+<div class="form-group">
+  <label for="srnm"></label>
+    <input type="password" id="srnm" placeholder=" Password"class="form-control">
+    <a href="#" id="text">Forgot password?</a>
+</div>
+
+
+<!-- <div class="form-group">
+  <label for="mobi"> </label>
+   <input type="text" id="mobi" placeholder="Enter your mobile number or email address" class="form-control">
+</div> -->
+
+<!-- <div class="form-group">
+  
+  <label id="name3"><b>Gender</b></label><br>
+  <input type="radio" name="gender" id="male"/> <label for="male" class="vo"> Male</label>&nbsp;&nbsp;
+  <input type="radio" name="gender" id="female"/> <label for="female" class="vo"> Female</label>&nbsp;&nbsp;
+  <input type="radio" name="gender" id="others"/> <label for="others" class="vo"> Others</label>
+  
+         
+
+</div> -->
+
+<!-- <div class="form-group">
+  <label for="dob"> <b>Date of Birth</b> </label><br>
+    <input type="Date" id="dob" class="form-control">
+</div>
+ -->
+
+<!-- div class="form-group">
+  <label for="address"></label>
+    <input type="text" id="srnm" placeholder=" Address"class="form-control">
+</div>
+ -->
+
+
+<a href="#" class="btn btn-lg btn-danger button1" id="forgot3">SUBMIT</a>
+
+                    <!--  <h3 class="button2">OR</h3>
+
+                     <span class="btn btn-lg btn-primary button3">Request OTP</span> -->
+       </form>
+
+       <h4>New to Company?</h4>
+       <a href="https://varunupadhayay.github.io/logo.co/register.html" class="btn btn-md btn-success button3">Create a new account</a>
+       
+       </div>
+       
+       
+       
+      </div>
+     </div>
+  
+  </div>
+
+                    
+                <a href="https://utkarshgoel10.github.io/Cart/" id="i"class="d-flex   align-items-center list-unstyled text-uppercase"><i class="fa fa-2x fa-shopping-cart cart" aria-hidden="true"></i></a>
+
+               
+    
+   </ul>
+      
+     	
+
+            <!------------------------------------------>
+
+            <div class="container-fluid row">
+
+              <h1 class="text-center text-dark text-center">Customize your covers</h1>
+            	
+     	<div class="col-lg-6 col-sm-6 col-6">
+     		<img src="3.webp" class="">
+     		
+     	</div>
+
+     	<div class="col-lg-6 col-sm-6 col-6 ">
+     		<img src="15.webp" class=" img1">
+     		
+     	</div>
+     	<div class="col-lg-6 col-sm-6 col-6">
+     		<img src="7.png" class=" img1 ">
+     		
+     	</div>
+      <div class="col-lg-6 col-sm-6 col-6">
+        <img src="14.webp" class="img1">
+        
+      </div>
+
+
+
+
+     	</div>
+
+     	
+     </div>
+
+</nav>
+</div>
+
+
+<!-------------------------sidebar javascript----------------------------------->
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
